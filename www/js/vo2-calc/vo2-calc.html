@@ -1,0 +1,32 @@
+
+    <div class="vc-calc-input-wrapper">
+        <div class="list list-inset">
+
+            <label class="item item-input">
+            <input ng-model="vo2Ctrl.age" type="number" placeholder="Age">
+            </label>
+
+            <label class="item item-input">
+            <input ng-model="vo2Ctrl.hr1" type="number" placeholder="Workload 1 Heart Rate">
+            </label>
+
+            <label class="item item-input">
+                <input ng-model="vo2Ctrl.hr2" type="number" placeholder="Workload 2 Heart Rate">
+            </label>
+            <label class="item item-input">
+                <input type="number" placeholder="Workload 1 Speed (mph)">
+            </label>
+            <label class="item item-input">
+                <input type="number" placeholder="Workload 2 Speed (mph)">
+            </label>
+
+            <label class="item item-input">
+                <input type="number" placeholder="Fractional Grade (%)">
+            </label>
+
+        </div>
+
+        <div class="vc-calc-results">
+            <h1>{{results}}</h1>
+        </div>
+    </div>
